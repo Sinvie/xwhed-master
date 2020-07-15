@@ -16,10 +16,6 @@ namespace Sinvie.M.D.U.Api.Controllers
     [Route("[controller]")]
     public class AccountController : ControllerBase
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        private readonly ILogger<WeatherForecastController> _logger;
 
         /// <summary>
         /// 
@@ -27,7 +23,7 @@ namespace Sinvie.M.D.U.Api.Controllers
         /// <param name="logger"></param>
         public AccountController(ILogger<WeatherForecastController> logger)
         {
-            _logger = logger;
+
         }
         /// <summary>
         /// 
